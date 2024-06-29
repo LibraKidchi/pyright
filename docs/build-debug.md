@@ -1,10 +1,10 @@
 ## Building Pyright
 
 To install the dependencies for all packages in the repo:
+
 1. Install [nodejs](https://nodejs.org/en/) version 16.x
 2. Open terminal window in main directory of cloned source
 3. Execute `npm run install:all` to install dependencies for projects and sub-projects
-
 
 ## Building the CLI
 
@@ -23,12 +23,10 @@ Once built, you can run the command-line tool by executing the following:
 The resulting package (pyright-X.Y.Z.vsix) can be found in the client directory.
 To install in VS Code, go to the extensions panel and choose “Install from VSIX...” from the menu, then select the package.
 
-
 ## Running Pyright tests
 
 1. cd to the `packages/pyright-internal` directory
 2. Execute `npm run test`
-
 
 ## Debugging Pyright
 
